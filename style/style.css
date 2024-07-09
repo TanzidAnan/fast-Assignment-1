@@ -157,6 +157,7 @@ article {
     font-weight: 400;
     margin-bottom: 20px;
 }
+
 /* inspiration section  */
 .inspiration-section {
     width: 90%;
@@ -196,4 +197,85 @@ article {
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+}
+
+.target-section-container {
+    width: 90%;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.target-div-content {
+    text-align: center;
+    margin: 15px 150px;
+    padding: 40px;
+}
+
+.skil-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.html-div {
+    width: 30%;
+    padding: 20px 10px;
+    border-radius: 16px;
+    padding: 20px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.html-div h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.html-div p {
+    color: rgb(31, 37, 52);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.css-div {
+    width: 30%;
+    padding: 20px 10px;
+    padding: 16px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.css-div h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.css-div p{
+    color: rgb(31, 37, 52);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.js-div {
+    width: 30%;
+    padding: 20px 10px;
+    padding: 19.5px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.js-div h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.js-div p{
+    color: rgb(31, 37, 52);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }

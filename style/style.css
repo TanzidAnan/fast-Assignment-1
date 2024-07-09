@@ -201,7 +201,7 @@ article {
 
 .target-section-container {
     width: 90%;
-    height: 113px;
+    height: 500px;
     margin: 0 auto;
 }
 
@@ -248,18 +248,21 @@ article {
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
-.css-div h1{
+
+.css-div h1 {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
 }
-.css-div p{
+
+.css-div p {
     color: rgb(31, 37, 52);
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 .js-div {
     width: 30%;
     padding: 20px 10px;
@@ -267,15 +270,73 @@ article {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
-.js-div h1{
+
+.js-div h1 {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
 }
-.js-div p{
+
+.js-div p {
     color: rgb(31, 37, 52);
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.support-section-content {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+.bg {
+    position: absolute;
+    background-color: black;
+    width: 1140px;
+    height: 313px;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.support-div h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    /* font-weight: 700; */
+    margin-bottom: 15px;
+}
+
+.support-div p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.support-div .feedback{
+    padding: 17px 20px 17px 20px;
+    width: 400px;
+height: 20px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.support-div .submit{
+    width: 120px;
+height: 57px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
 }

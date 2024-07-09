@@ -52,9 +52,10 @@
 article {
     width: 90%;
     margin: 0 auto;
-    height: 1393px;
+    height: 1200px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 40px;
 }
 
 .web-development {
@@ -155,4 +156,44 @@ article {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+/* inspiration section  */
+.inspiration-section {
+    width: 90%;
+    height: 775px;
+    margin: 0 auto;
+}
+
+.inspiration-div {
+    padding-top: 20px;
+    text-align: center;
+    margin: 20px 250px;
+}
+
+.inspiration-div h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspiration-div p {
+    color: rgb(13, 19, 33);
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.youtune-inspiration {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%px;
+    height: 550px;
+}
+
+.youtune-inspiration iframe {
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }

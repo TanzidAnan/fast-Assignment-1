@@ -32,7 +32,7 @@
 .banner p {
     font-size: 16px;
     font-weight: 400;
-    margin: 20px 150px;
+    margin: 30px 150px;
 }
 
 .banner .btn {
@@ -40,11 +40,13 @@
     border-radius: 8px;
     color: white;
     background: rgb(13, 19, 33);
+    text-decoration: none;
 }
 
 .banner .btn:hover {
     background-color: white;
     color: rgb(13, 19, 33);
+    border: 1px solid rgb(245, 75, 13);
 }
 
 
